@@ -1,7 +1,11 @@
 import React from 'react'
 
 const App = () => {
-  return <div className='bg-red-600'>App</div>
+  return (
+    <div className='overflow-x-hidden'>
+      <Hero />
+    </div>
+  );
 };
 
 export default App;
