@@ -1,20 +1,20 @@
 import { CheckCircle2 } from "lucide-react";
-import codeImg from "../assets/code.jpg";
+import codeImg from "../assets/homanvr.png";
 import { checklistItems } from "../constants";
 
 const Workflow = () => {
   return (
     <div className="mt-20">
         <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center 
-        mt-6 tracking-wide"> Acelerate your 
+        mt-6 tracking-wide"> O que você leva ao alugar <br/>um 
         <span className="bg-gradient-to-r from-violet-500 to-violet-950
-        text-transparent bg-clip-text">
-        coding workflow.
+        text-transparent bg-clip-text font-semibold">
+        &nbsp;Óculos VR?
         </span>
         </h2>
         <div className="flex flex-wrap justify-center">
-            <div className="p-2 w-full lg:w-1/2">
-            <img src={codeImg} alt="Code" />
+            <div className=" lg:w-1/2 ">
+            <img src={codeImg} className="w-[430px] mt-14 ml-24 rounded-2xl shadow-2xl shadow-blue-500/20"alt="Code" />
             </div>
             <div className="pt-12 w-full lg:w-1/2">
                 {checklistItems.map((item, index) => (

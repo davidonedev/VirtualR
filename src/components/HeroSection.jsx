@@ -4,7 +4,7 @@ import video2 from "../assets/video2.mp4"
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
-        <h1 className="text-4xl sm:text-6xl lg:text-6xl text-center tracking-wide -mt-16">
+        <h1 className="text-4xl sm:text-6xl lg:text-6xl text-center tracking-wide -mt-24">
             Experimente um Mundo de Realidade Virtual como 
             <span className="bg-gradient-to-r from-violet-500 to-violet-950 text-transparent bg-clip-text">
             {" "}
@@ -46,3 +46,9 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+
+
+
+
+

@@ -2,8 +2,8 @@ import { Cpu } from "lucide-react";
 import { ShieldCheck as ShieldCheckIcon } from "lucide-react";
 import { Fingerprint } from "lucide-react";
 import { RefreshCcw as RefreshCcwIcon } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import { HandCoins as HardCoinsIcon } from "lucide-react";
+import { Box } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -85,13 +85,13 @@ export const features = [
       "Contamos com uma equipe dedicada que oferece assistência antes, durante e após o uso, garantindo tranquilidade ao cliente.",
   },
   {
-    icon: <PlugZap />,
+    icon: <HardCoinsIcon />,
     text: "Economia com Máximo Benefício",
     description:
       "Pague apenas pelo tempo de uso e evite gastos com manutenção, atualizações ou obsolescência dos equipamentos.",
   },
   {
-    icon: <GlobeLock />,
+    icon: <Box />,
     text: "Variedade de Conteúdos Personalizáveis",
     description:
       "Tenha acesso a uma biblioteca diversificada de jogos e experiências, customizáveis para atender qualquer público ou faixa etária.",
@@ -100,24 +100,24 @@ export const features = [
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Equipamentos higienizados e revisados",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Garantia de qualidade e segurança em todos os aparelhos utilizados durante o evento.",
   },
   {
-    title: "Review code without worry",
+    title: "Jogos e experiências personalizáveis conforme o evento",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Adapte atividades e experiências ao tema e ao público, tornando cada momento único.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Suporte ao vivo para resolver dúvidas ou problemas.",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Oferecemos assistência instantânea para garantir que tudo ocorra sem imprevistos.",
   },
   {
-    title: "Share work in minutes",
+    title: "Treinamento prático para iniciantes utilizarem com facilidade.",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Ajudamos os iniciantes a dominar rapidamente as ferramentas, proporcionando uma experiência tranquila e eficaz.",
   },
 ];
 
