@@ -15,7 +15,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
             <img className="h-13 w-16 mr-2" src={logo} alt="logo" />
-            <span className="text-xl tracking-tight">VirtualR</span>
+            <div className="flex flex-col">
+            <span className="text-2xl tracking-wide">VirtualR</span>
+            <span className="text-base tracking-wide font-light -mt-2">Technology</span>
+            </div>
+            
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
@@ -24,15 +28,14 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border-violet-800 hover:bg-violet-800 border rounded-md">
-              Sign In
+          <div className="hidden lg:flex justify-center space-x-6 items-center">
+            <a href="#" className="py-2 px-3 border-violet-500 hover:bg-violet-800 border rounded-md">
+              Entrar
             </a>
             <a
               href="#"
-              className="bg-gradient-to-r border border-violet-800 bg-violet-800 hover:bg-transparent py-2 px-3 rounded-md"
-            >
-              Create an account
+              className="bg-gradient-to-r border border-violet-500 bg-violet-800 hover:bg-transparent py-2 px-3 rounded-md">
+              Crie uma conta
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -54,7 +57,7 @@ const Navbar = () => {
                     <a href="#" className="py-2 px-3 border rounded-md">
                         Sign In
                     </a>
-                    <a href="#" className="py-2 px-3 rounded-md bg-gradient-to-r from-sky-500 to-violet-800">
+                    <a href="#" className="py-2 px-3 rounded-md bg-gradient-to-r from-sky-500 to-violet-500">
                         Create an account
                     </a>
                 </div>

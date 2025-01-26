@@ -4,26 +4,24 @@ import video2 from "../assets/video2.mp4"
 const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-            VirtualR build tools for developers
-            <span className="bg-gradient-to-r from-sky-500 to--800 text-transparent bg-clip-text">
+        <h1 className="text-4xl sm:text-6xl lg:text-6xl text-center tracking-wide -mt-16">
+            Experimente um Mundo de Realidade Virtual como 
+            <span className="bg-gradient-to-r from-violet-500 to-violet-950 text-transparent bg-clip-text">
             {" "}
-            for developers 
+            Nunca Antes! 
             </span>
         </h1>
-        <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolorem doloremque ad provident! Sed, 
-         quisquam consequatur? Dolor id, ut, odit enim voluptatum ipsa rem dignissimos 
-         error odio tempore reprehenderit corrupti?
+        <p className="mt-5 text-lg text-center text-neutral-500 max-w-4xl">
+            Descubra porque milhares de pessoas escolhem alugar óculos VR com a gente.
         </p>
-        <div className="flex justify-center my-10">
-            <a href="#" className="bg-gradient-to-r from-sky-500 to-violet-800 py-3 px-4 mx-3 rounded-md">
+        {/*<div className="flex justify-center my-10">
+            <a href="#" className="bg-gradient-to-r from-violet-500 to--900 py-3 px-4 mx-3 rounded-md">
                 Start for free
             </a>
             <a href="#" className="py-3 px-4 mx-3 rounded-md border">
                 Documentation
             </a>
-        </div>
+        </div>*/}
         <div className="flex mt-10 justify-center">
             <video autoPlay 
             loop 

@@ -1,7 +1,7 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
+import { Cpu } from "lucide-react";
+import { ShieldCheck as ShieldCheckIcon } from "lucide-react";
 import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
+import { RefreshCcw as RefreshCcwIcon } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
@@ -13,10 +13,11 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Home", href: "#" },
+  { label: "Benefícios", href: "#" },
+  { label: "Depoimentos", href: "#" },
+  { label: "Preços", href: "#" },
+  { label: "Contato", href: "#" },
 ];
 
 export const testimonials = [
@@ -60,40 +61,40 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <Cpu />,
+    text: "Acessibilidade à Tecnologia Inovadora",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Alugue equipamentos de alta qualidade sem precisar investir no custo elevado de compra, aproveitando o que há de mais moderno no mercado.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Experiência Única",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Seja em festas de aniversário, eventos corporativos, casamentos ou workshops, os óculos VR tornam cada momento inesquecível e impressionante.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <RefreshCcwIcon />,
+    text: "Atualizações Constantes",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Trabalhamos com os equipamentos mais recentes e conteúdos atualizados, garantindo sempre as melhores e mais inovadoras experiências.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <ShieldCheckIcon />,
+    text: "Suporte Técnico Completo",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Contamos com uma equipe dedicada que oferece assistência antes, durante e após o uso, garantindo tranquilidade ao cliente.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Economia com Máximo Benefício",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Pague apenas pelo tempo de uso e evite gastos com manutenção, atualizações ou obsolescência dos equipamentos.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Variedade de Conteúdos Personalizáveis",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Tenha acesso a uma biblioteca diversificada de jogos e experiências, customizáveis para atender qualquer público ou faixa etária.",
   },
 ];
 
