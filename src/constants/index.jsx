@@ -22,40 +22,40 @@ export const navItems = [
 
 export const testimonials = [
   {
-    user: "John Doe",
+    user: "Henrique Santiago",
     company: "Stellar Solutions",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "A experiência que nossos convidados tiveram no evento foi simplesmente incrível! Os óculos VR trouxeram diversão interativa e momentos únicos que todos adoraram. Com certeza vamos alugar novamente!",
   },
   {
-    user: "Jane Smith",
+    user: "Julia Capovick",
     company: "Blue Horizon Technologies",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "Utilizamos os óculos VR na nossa festa de aniversário e foi um sucesso absoluto. Até mesmo aqueles que nunca tinham experimentado ficaram encantados com as possibilidades. Vale cada segundo!",
   },
   {
-    user: "David Johnson",
+    user: "Jonatan Alves",
     company: "Quantum Innovations",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Organizamos um evento corporativo e a inclusão dos óculos VR foi o destaque. Todos os colaboradores adoraram e pudemos integrar atividades de equipe de forma criativa e divertida.",
   },
   {
-    user: "Ronee Brown",
+    user: "Chris Brown",
     company: "Fusion Dynamics",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "Foi uma atração diferente e inovadora para nossa festa. As crianças e os adultos se divertiram ao máximo, criando momentos que ficaram marcados para todos. Atendimento excelente!",
   },
   {
     user: "Michael Wilson",
     company: "Visionary Creations",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "Decidimos alugar os óculos VR para a nossa feira empresarial e isso chamou muita atenção para o nosso stand. A interatividade cativou clientes e visitantes, superando nossas expectativas.",
   },
   {
     user: "Emily Davis",
     company: "Synergy Systems",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "Os óculos VR transformaram nosso aniversário em um evento memorável. A qualidade dos jogos e a facilidade de uso garantiram que todo mundo participasse e se divertisse muito!",
   },
 ];
 
@@ -124,7 +124,7 @@ export const checklistItems = [
 export const pricingOptions = [
   {
     title: "Free",
-    price: "$0",
+    price: "R$0",
     features: [
       "Private board sharing",
       "5 Gb Storage",
@@ -134,7 +134,7 @@ export const pricingOptions = [
   },
   {
     title: "Pro",
-    price: "$10",
+    price: "R$300",
     features: [
       "Private board sharing",
       "10 Gb Storage",
