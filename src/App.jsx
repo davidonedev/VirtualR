@@ -17,9 +17,9 @@ const App = () => {
       <Workflow />
       <Pricing />
       <Testimonials />
-      <Footer />
-      </div>
       
+      </div>
+      <Footer />
     </>
   );
 };

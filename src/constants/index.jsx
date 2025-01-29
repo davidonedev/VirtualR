@@ -38,7 +38,7 @@ export const testimonials = [
     user: "Jonatan Alves",
     company: "Quantum Innovations",
     image: user3,
-    text: "Organizamos um evento corporativo e a inclusão dos óculos VR foi o destaque. Todos os colaboradores adoraram e pudemos integrar atividades de equipe de forma criativa e divertida.",
+    text: "Organizamos um evento corporativo e a inclusão dos óculos VR foi o destaque. Todos os colaboradores adoraram e pudemos integrar atividades de equipe de forma criativa e divertida. Recebemos muitos elogios de todos.",
   },
   {
     user: "Chris Brown",
@@ -56,7 +56,7 @@ export const testimonials = [
     user: "Emily Davis",
     company: "Synergy Systems",
     image: user6,
-    text: "Os óculos VR transformaram nosso aniversário em um evento memorável. A qualidade dos jogos e a facilidade de uso garantiram que todo mundo participasse e se divertisse muito!",
+    text: "Os óculos VR transformaram nosso aniversário em um evento memorável. A qualidade dos jogos e a facilidade de uso garantiram que todo mundo participasse e se divertisse muito! Minha família adorou!",
   },
 ];
 
