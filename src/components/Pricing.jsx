@@ -10,25 +10,21 @@ const Pricing = () => {
       </h2>
       
 
-      <div className="teste">
-        <div class="relative rounded-3xl bg-gray-800 bg-opacity-25 p-8 ring-1 shadow-2xl ring-gray-900/10 sm:p-10">
-          <h3
-            id="tier-enterprise"
-            class="text-base/7 font-semibold text-indigo-400"
-          >
-            VirtualR
-          </h3>
-          <p class="mt-4 flex items-baseline gap-x-2">
-            <span class="text-5xl font-semibold tracking-tight text-white">
-              R$329,97
-            </span>
-            <span class="text-base text-gray-400">p/ Semana</span>
-          </p>
-          <p class="mt-6 text-base/7 text-gray-300">
-            Tenha 7 dias para aproveitar toda essa tecnologia incrível
-          </p>
-          <ul
-            role="list"
+        <div className="flex flex-row">
+            <div class="relative rounded-3xl bg-gray-800 bg-opacity-25 p-8 ring-1 shadow-2xl ring-gray-900/10 sm:p-10 xl:w-2/5">
+                <h3 id="tier-enterprise" class="text-base/7 font-semibold text-indigo-400">
+                VirtualR
+                </h3>
+                <p class="mt-4 flex items-baseline gap-x-2">
+                <span class="text-5xl font-semibold tracking-tight text-white">
+                       R$329,97
+                </span>
+                <span class="text-base text-gray-400">p/ Semana</span>
+                </p>
+                <p class="mt-6 text-base/7 text-gray-300">
+                    Tenha 7 dias para aproveitar toda essa tecnologia incrível
+                </p>
+                <ul role="list"
             class="mt-8 space-y-3 text-sm/6 text-gray-300 sm:mt-10"
           >
             <li class="flex gap-x-3">
@@ -124,7 +120,8 @@ const Pricing = () => {
 
       {/* Card Diario */}
 
-      <div class="relative mt-16 rounded-3xl bg-gray-800 bg-opacity-25 p-8 ring-1 shadow-2xl ring-gray-900/10 sm:p-10">
+      <div class="relative mt-16 rounded-3xl bg-gray-800 bg-opacity-25 p-8 ring-1 shadow-2xl
+       ring-gray-900/10 sm:p-10 xl:w-2/5">
         <h3
           id="tier-enterprise"
           class="text-base/7 font-semibold text-indigo-400"
