@@ -3,8 +3,8 @@ import video2 from "../assets/video2.mp4"
 
 const HeroSection = () => {
   return (
-    <div className=" sm:mr-20 ml-2 sm:mt-16 sm:flex-col sm:items-center flex flex-col items-center mt-6 lg:mt-20">
-        <h1 className="text-slate text-4xl sm:text-4xl lg:text-6xl text-center tracking-wide -mt-24 ">
+    <div className=" sm:mr-20 ml-2 sm:mt-8 sm:flex-col sm:items-center flex flex-col items-center mt-6 lg:mt-0">
+        <h1 className="text-slate text-4xl sm:text-4xl lg:text-6xl text-center tracking-wide -mt-10 md:mt-10 ">
             Experimente a Realidade Virtual como
             <span className="bg-gradient-to-r from-violet-500 to-violet-950 text-transparent bg-clip-text">
             {" "}
@@ -16,18 +16,18 @@ const HeroSection = () => {
         para criar experiências imersivas.
         </p>
         <div className="flex justify-center my-10">
-            <a href="#" className="bg-gradient-to-r from-violet-500 to--900 py-3 px-4 mx-3 rounded-md">
-                Start for free
+            <a href="#" className="bg-gradient-to-r bg-violet-800 py-3 px-4 mx-3 rounded-md">
+                Adquira agora o seu!
             </a>
             {/*<a href="#" className="py-3 px-4 mx-3 rounded-md border">
                 Documentation
             </a>*/}
         </div>
-        <div className="flex mt-10 justify-center">
+        <div className="flex mt-10 justify-center items-center flex-col mt-6">
             <video autoPlay 
             loop 
             muted 
-            className="rounded-lg w-1/2 border border-violet-600 
+            className="rounded-lg w-full border border-violet-600 
             mx-2 my-4">
                 <source src={video1} type="video/mp4" />
                 Your browser does not support the video tag.
@@ -36,7 +36,7 @@ const HeroSection = () => {
             <video autoPlay 
             loop 
             muted 
-            className="rounded-lg w-1/2 border border-violet-600
+            className="rounded-lg w-full border border-violet-600
             mx-2 my-4">
                 <source src={video2} type="video/mp4" />
                 Your browser does not support the video tag.

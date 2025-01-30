@@ -6,26 +6,26 @@ import logo from "../assets/oculosvr.png";
 
 const Footer = () => {
   return (
-    <footer className="md:px-16 lg:px-28">
-        <hr className="my-8 border-t border-zinc-700/50 mx-auto w-[1920px]" />
-        <div className="grid grid-cols-1 md:grid-cols-4 ml-16">
+    <footer className="h-full emd:px-20 lg:px-20 ">
+        <hr className="my-8 border-t border-zinc-700/50 mx-auto" />
+        <div className="h-auto grid grid-cols-1 md:grid-cols-4 ml-24">
             <div>
-                <img className="h-16 w-22 mr-2 mb-1" src={logo} alt="logo" />
-                <div className="flex flex-col">
+                <img className="h-16 w-22 mr-2 mb-1 ml-20" src={logo} alt="logo" />
+                <div className="flex flex-col ml-20">
                 <span className="text-2xl tracking-wide">VirtualR</span>
                 <span className="text-base tracking-wide font-light -mt-2">Technology</span>
                 </div>
             </div>
-            <div className='mr-28'>
-                <h2 className="text-lg font-bold mb-4">
+            <div className='mr-28 mt-12'>
+                <h2 className="text-lg font-bold mb-4 text-center w-60">
                     Sobre nós
                 </h2>
-                <p className="text-gray-300">
+                <p className="text-gray-300 mt-4 w-60 text-center">
                     We are a team dedicated to providing the best products and services to our customers.
                 </p>
             </div>
-            <div>
-            <h2 className="text-lg font-bold mb-4 mr-32">Navegação</h2>
+            <div className=''>
+            <h2 className="text-lg font-bold mb-4 mr-32 mt-12">Navegação</h2>
                 <ul>
                     <li className='text-gray-300'><a href="#" ></a>Home</li>
                     <li className='text-gray-300'><a href="#" ></a>Benefícios</li>
