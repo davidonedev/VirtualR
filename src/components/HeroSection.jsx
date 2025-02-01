@@ -17,7 +17,7 @@ const HeroSection = () => {
         </p>
         <div className="flex justify-center my-10">
             <a href="#" className="bg-gradient-to-r bg-violet-800 py-3 px-4 mx-3 rounded-md">
-                Adquira agora o seu!
+                Adquira agora!
             </a>
             {/*<a href="#" className="py-3 px-4 mx-3 rounded-md border">
                 Documentation

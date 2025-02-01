@@ -10,10 +10,10 @@ const Navbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80 items-center text-center ">
+    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80 text-center flex justify-center">
       <div className="container px-4 mx-auto relative text-sm ">
-        <div className="flex justify-between items-center 2xl:ml-32 2xl:mr-20 cursor-pointer">
-          <div className="flex items-center flex-shrink-0 xl:ml-20">
+        <div className="flex justify-between items-center 2xl:ml-32 2xl:mr-20 cursor-pointer ">
+          <div className="flex items-center flex-shrink-0 xl:ml-12">
             <img className="h-13 w-16 mr-2" src={logo} alt="logo" />
             <div className="flex flex-col">
               <span className="text-2xl tracking-wide">VirtualR</span>
@@ -22,15 +22,15 @@ const Navbar = () => {
               </span>
             </div>
           </div>
-          <ul className="hidden lg:flex space-x-12 xl:ml-16  ">
+          <ul className="hidden lg:flex space-x-12 xl:ml-28  ">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a href={item.href} className="text-gray-200 duration-200 hover:text-violet-700 -mx-3">
+                <a href={item.href} className="text-gray-200 duration-200 hover:text-violet-700 -mx-3 text-base">
                   {item.label}</a>
               </li>
             ))}
           </ul>
-          <div className="hidden lg:flex justify-center space-x-3 items-center mr-48 lg:ml-20 xl:ml-12 ">
+          <div className="hidden lg:flex justify-center space-x-3 items-center mr-40 lg:ml-20 xl:mr-36  ">
             <a href="#" className="py-2 px-3 border-violet-500 hover:bg-violet-800 border rounded-md">
               Entrar
             </a>

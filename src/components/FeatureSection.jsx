@@ -12,10 +12,10 @@ const FeatureSection = () => {
         <div className="bg-red-500 w-50 h-50">
             
         </div>
-        <h2 className="flex flex-col text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide">
+        <h2 className="flex flex-col text-3xl sm:text-5xl lg:text-55xl mt-10 lg:mt-20 tracking-wide">
             Por que alugar 
           <span className="bg-gradient-to-r from-violet-500 to-violet-950 text-transparent 
-          bg-clip-text font-semibold">
+          bg-clip-text font-semibold pt-2">
             Óculos VR?
           </span>
         </h2>
