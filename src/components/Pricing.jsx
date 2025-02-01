@@ -8,7 +8,7 @@ const Pricing = () => {
       <h2 className="text-3xl mt-16 mb-28 sm:text-5xl lg:text-center my-8 tracking-wider text-center font-semibold">Assinaturas</h2>
       <div className="flex items-center justify-center min-h-screen flex-col sm:flex-row gap-20 -mt-14 mb-28">
         {[{ price: "R$329,97", period: "p/ Semana" }, { price: "R$119,00", period: "p/ dia" }].map((plan, index) => (
-          <div key={index} className="relative rounded-3xl bg-gray-800 bg-opacity-25 p-8 ring-1 shadow-2xl ring-gray-900/10 sm:p-10 xl:w-2/5">
+          <div key={index} className="relative rounded-3xl bg-gray-700 bg-opacity-25 p-8 ring-1 shadow-2xl ring-gray-900/10 sm:p-10 xl:w-2/5">
             <h3 className="text-base/7 font-semibold text-indigo-400">VirtualR</h3>
             <p className="mt-4 flex items-baseline gap-x-2">
               <span className="text-5xl font-semibold tracking-tight text-white">{plan.price}</span>
