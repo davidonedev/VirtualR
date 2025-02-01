@@ -5,8 +5,8 @@ const Pricing = () => {
   return (
     <div className="mt-15">
       <hr className="my-8 border-t border-zinc-700/50 mx-auto w-4/4" />
-      <h2 className="text-3xl mt-20 mb-12 sm:text-5xl lg:text-center my-8 tracking-wider">Assinaturas</h2>
-      <div className="flex items-center justify-center min-h-screen flex-row gap-10 -mt-14 -mb-14">
+      <h2 className="text-3xl mt-16 mb-28 sm:text-5xl lg:text-center my-8 tracking-wider text-center font-semibold">Assinaturas</h2>
+      <div className="flex items-center justify-center min-h-screen flex-col sm:flex-row gap-20 -mt-14 mb-28">
         {[{ price: "R$329,97", period: "p/ Semana" }, { price: "R$119,00", period: "p/ dia" }].map((plan, index) => (
           <div key={index} className="relative rounded-3xl bg-gray-800 bg-opacity-25 p-8 ring-1 shadow-2xl ring-gray-900/10 sm:p-10 xl:w-2/5">
             <h3 className="text-base/7 font-semibold text-indigo-400">VirtualR</h3>
