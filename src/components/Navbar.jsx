@@ -66,8 +66,7 @@ const Navbar = () => {
               <a href="#" className="w-48 py-2 px-3 border border-violet-500 text-white hover:bg-violet-950 text-center rounded-md">
                 Entrar
               </a>
-              <a href="#" className="w-48 py-2 px-3 bg-gradient-to-r bg-violet-800 hover:bg-violet-950
-                 text-white text-center rounded-md">
+              <a href="#" className="w-48 py-2 px-3 bg-gradient-to-r bg-violet-800 hover:bg-violet-950 text-white text-center rounded-md">
                 Crie uma conta
               </a>
             </div>
