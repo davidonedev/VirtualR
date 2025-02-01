@@ -6,10 +6,11 @@ import logo from "../assets/oculosvr.png";
 
 const Footer = () => {
     return (
-        <footer className=" text-white py-10">
-            <hr className="my-8 border-t border-zinc-700/50 mx-auto" />
+        <footer className=" text-white py-10 flex flex-col items-center justify-center ">
+            <hr className="w-full border-t border-zinc-800 mb-10" />
 
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 lg:gap-32 gap-14 px-6">
+
               {/* Logo e informações */}
             <div className="flex flex-col items-center md:items-start">
                 <img className="h-16 w-22 mb-4" src={logo} alt="logo" />
@@ -22,15 +23,15 @@ const Footer = () => {
               {/* Sobre nós */}
             <div className="flex flex-col items-center md:items-start">
                 <h2 className="text-lg font-bold mb-4">Sobre nós</h2>
-                <p className="text-gray-300 text-center md:text-left w-72">
+                <p className="text-gray-300 text-center md:text-left w-44 text-balance">
                     We are a team dedicated to providing the best products and services to our customers.
                 </p>
                 </div>
 
               {/* Navegação */}
-                <div className="flex flex-col items-center md:items-start">
+                <div className="flex flex-col items-center md:items-start ">
                     <h2 className="text-lg font-bold mb-4 text-center">Navegação</h2>
-                    <ul className="space-y-2 text-gray-300 text-center">
+                    <ul className="space-y-2 text-gray-300 text-center lg:text-left xl:text-left">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Benefícios</a></li>
                         <li><a href="#">Depoimentos</a></li>
@@ -49,11 +50,11 @@ const Footer = () => {
                     </ul>
                     <div className="flex items-center space-x-2 mt-2">
                       {/* <Mail className="text-violet-700 cursor-pointer" /> */}
-                        <p className="text-gray-300">exemplo.ghb@hmail.com</p>
+                        <p className="text-gray-300">tech@virtualr.com.br</p>
                     </div>
                 </div>
             </div>
-            <div className="mt-10 -mb-5 text-center text-sm italic text-slate-400/75">
+            <div className="mt-10 xl:mt-12 -mb-5 text-center text-sm italic text-slate-400/75">
                 <p>© 2024 Code by David. All rights reserved</p>
             </div>
         </footer>

@@ -10,11 +10,11 @@ const Navbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80 text-center flex justify-center">
+    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80 text-center flex justify-center mx-auto">
       <div className="container lg:ml-20 px-4 mx-auto relative text-sm ">
         <div className="flex justify-between items-center 2xl:ml-32 2xl:mr-20 cursor-pointer ">
           <div className="flex items-center flex-shrink-0 xl:ml-12">
-            <img className="h-13 w-16 mr-2" src={logo} alt="logo" />
+            <img className="h-13 w-16 mr-2 xl:ml-10" src={logo} alt="logo" />
             <div className="flex flex-col">
               <span className="text-2xl tracking-wide">VirtualR</span>
               <span className="text-base tracking-wide font-light -mt-2">
@@ -30,7 +30,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="hidden lg:flex justify-center space-x-3 items-center mr-40 lg:ml-20 xl:mr-36  ">
+          <div className="hidden lg:flex justify-center space-x-3 items-center mr-40 lg:ml-20 xl:mr-20   ">
             <a href="#" className="py-2 px-3 border-violet-500 hover:bg-violet-800 border rounded-md">
               Entrar
             </a>
@@ -54,7 +54,7 @@ const Navbar = () => {
             <ul className="space-y-4">
               {navItems.map((item, index) => (
                 <li key={index} className="w-56">
-                  <a href={item.href} className="block w-full bg-violet-700 hover:bg-violet-950 text-white text-sm 
+                  <a href={item.href} className="block w-full bg-zinc-800 hover:bg-violet-800 text-white text-sm 
                   px-4 py-2 text-center rounded-lg transition-all"
                   >{item.label}</a>
                 </li>
