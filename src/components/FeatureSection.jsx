@@ -2,7 +2,7 @@ import { features } from "../constants";
 
 const FeatureSection = () => {
   return (
-    <div className="relative mt-10 border-b border-neutral-800 min-h-[500px] border-t border-zinc-700/50 mx-auto">
+    <div id="vantagens" className="relative mt-10 border-b border-neutral-800 min-h-[500px] border-t border-zinc-700/50 mx-auto">
       <div className="text-center -mt-8">
         {/* <span
           className="bg-neutral-900 text-violet-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase animate-bounce">

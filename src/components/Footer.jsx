@@ -49,7 +49,7 @@ const Footer = () => {
                         <li><Facebook className='text-violet-700 cursor-pointer' /></li>
                     </ul>
                     <div className="flex items-center space-x-2 mt-2">
-                      {/* <Mail className="text-violet-700 cursor-pointer" /> */}
+                      <Mail className="text-violet-700 cursor-pointer" />
                         <p className="text-gray-300">tech@virtualr.com.br</p>
                     </div>
                 </div>

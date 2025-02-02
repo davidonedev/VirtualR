@@ -3,7 +3,7 @@ import video2 from "../assets/video2.mp4"
 
 const HeroSection = () => {
   return (
-    <div className="flex justify-center items-center w-full min-h-screen 2xl:-mb-36">
+    <div id="home"className="flex justify-center items-center w-full min-h-screen 2xl:-mb-36">
         <div className="flex flex-col items-center mx-auto text-center ">
             <h1 className="text-slate text-4xl xl:text-6xl tracking-wide md:mt-2 lg:mt-16 2xl:mt-2 ">
             Experimente a Realidade Virtual como 

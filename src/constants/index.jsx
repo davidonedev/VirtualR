@@ -14,11 +14,11 @@ import user6 from "../assets/profile-pictures/user6.jpg";
 
 
 export const navItems = [
-  { label: "Home", href: "#" },
-  { label: "Benefícios", href: "#" },
-  { label: "Depoimentos", href: "#" },
-  { label: "Preços", href: "#" },
-  { label: "Contato", href: "#" },
+  { label: "Home", href: "#home" },
+  { label: "Vantagens", href: "#vantagens" },
+  { label: "Benefícios", href: "#beneficios" },
+  { label: "Preços", href: "#precos" },
+  { label: "Depoimentos", href: "#depoimentos" },
 ];
 
 export const testimonials = [
