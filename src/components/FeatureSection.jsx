@@ -2,9 +2,8 @@ import { features } from "../constants";
 
 const FeatureSection = () => {
   return (
-    <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+    <div className="relative mt-10 border-b border-neutral-800 min-h-[500px] border-t border-zinc-700/50 mx-auto">
       <div className="text-center -mt-8">
-        <hr className="my-8 border-t border-zinc-700/50 mx-auto w-4/4" />
         {/* <span
           className="bg-neutral-900 text-violet-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase animate-bounce">
           feature
@@ -12,7 +11,8 @@ const FeatureSection = () => {
         <div className="bg-red-500 w-50 h-50">
             
         </div>
-        <h2 className="flex flex-col text-3xl sm:text-5xl lg:text-55xl mt-10 lg:mt-20 tracking-wide">
+        <h2 className="flex flex-col text-3xl sm:text-5xl lg:text-5xl 
+        mt-24 mb-16 lg:mt-20 tracking-wide 2xl:mt-24">
             Por que alugar 
           <span className="bg-gradient-to-r from-violet-500 to-violet-950 text-transparent 
           bg-clip-text font-semibold pt-2">

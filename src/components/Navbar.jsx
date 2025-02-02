@@ -10,11 +10,11 @@ const Navbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80 text-center flex justify-center mx-auto">
-      <div className="container lg:ml-20 px-4 mx-auto relative text-sm ">
+    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
+      <div className="container px-4 mx-auto relative text:sm"> {/* flex justify-between items-center lg:px-8 xl:px-16 max-w-screen-xl */}
         <div className="flex justify-between items-center 2xl:ml-32 2xl:mr-20 cursor-pointer ">
-          <div className="flex items-center flex-shrink-0 xl:ml-12">
-            <img className="h-13 w-16 mr-2 xl:ml-10" src={logo} alt="logo" />
+          <div className="flex items-center flex-shrink-0">
+            <img className="h-13 w-16 mr-2 " src={logo} alt="logo" />
             <div className="flex flex-col">
               <span className="text-2xl tracking-wide">VirtualR</span>
               <span className="text-base tracking-wide font-light -mt-2">
@@ -30,12 +30,12 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="hidden lg:flex justify-center space-x-3 items-center mr-40 lg:ml-20 xl:mr-20   ">
+          <div className="hidden lg:flex justify-center space-x-3 items-center mr-40 lg:ml-20 xl:mr-10">
             <a href="#" className="py-2 px-3 border-violet-500 hover:bg-violet-800 border rounded-md">
               Entrar
             </a>
             <a href="#" className="bg-gradient-to-r border border-violet-500 bg-violet-800 
-            hover:bg-transparent py-2 px-3 rounded-md lg:w-36 text-center">
+            hover:bg-transparent py-2 px-3 rounded-md lg:w-40 text-center ">
               Crie uma conta
             </a>
           </div>

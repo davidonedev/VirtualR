@@ -4,9 +4,9 @@ import { checklistItems } from "../constants";
 
 const Workflow = () => {
     return (
-        <div className="mt-20 ">
-            <h2 className=" text-2xl sm:text-5xl lg:text-5xl text-center 
-            mt-6 tracking-wide"> O que você leva ao alugar <br/>um 
+        <div className="mt-20 xl:mb-20">
+            <h2 className=" text-3xl sm:text-5xl lg:text-5xl text-center 2xl:mt-20
+            mt-2 tracking-wide "> O que você leva ao alugar <br/>um 
             <span className=" bg-gradient-to-r from-violet-500 to-violet-950
             text-transparent bg-clip-text font-semibold">
             &nbsp;Óculos VR?
