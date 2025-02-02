@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div className="flex justify-center items-center w-full min-h-screen 2xl:-mb-36">
         <div className="flex flex-col items-center mx-auto text-center ">
-            <h1 className="text-slate text-4xl sm:text-4xl lg:text-6xl tracking-wide md:mt-2 lg:mt-16 2xl:mt-2 ">
+            <h1 className="text-slate text-4xl xl:text-6xl tracking-wide md:mt-2 lg:mt-16 2xl:mt-2 ">
             Experimente a Realidade Virtual como 
             <span className="bg-gradient-to-r from-violet-500 to-violet-950 text-transparent bg-clip-text"> Nunca Antes!</span>
             </h1>

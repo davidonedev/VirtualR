@@ -4,8 +4,8 @@ import { pricingOptions } from "../constants";
 const Pricing = () => {
   return (
     <div className="my-8 border-t border-zinc-700/50 xl:mb-40 2xl:mt-16 2xl:mb-10">
-        <h1 className="flex justify-center text-center text-4xl 
-        mt-16 mb-16 font-semibold lg:mt-28 lg:mb-5 xl:mt-20 xl:mb-20 2xl:mt-24 2xl:-mb-36">
+        <h1 className="flex justify-center text-center text-3xl xl:text-4xl 
+        mt-16 mb-16 font-medium lg:mt-28 lg:mb-5 xl:mt-20 xl:mb-20 2xl:mt-24 2xl:-mb-36">
         Assinatura
         </h1>
       <div className="flex items-center justify-center min-h-screen flex-col sm:flex-row 
