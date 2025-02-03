@@ -7,6 +7,7 @@ import Pricing from "./components/Pricing";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatzAppButton";
+import AboutUs from "./components/AboutUs";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <div className="max-w-7xl mx-auto pt-20 xl:pt-6 px-6">
       <HeroSection />
       <FeatureSection />
+      <AboutUs />
       <Workflow />
       <Pricing />
       <Testimonials />
