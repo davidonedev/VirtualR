@@ -24,7 +24,7 @@ const Footer = () => {
             <div className="flex flex-col items-center md:items-start">
                 <h2 className="text-lg font-bold mb-4">Sobre nós</h2>
                 <p className="text-gray-300 text-center md:text-left w-44 text-balance">
-                    We are a team dedicated to providing the best products and services to our customers.
+                Alugamos óculos VR para empresas, festas e eventos, proporcionando experiências inovadoras e inesquecíveis.
                 </p>
                 </div>
 
