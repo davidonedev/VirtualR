@@ -11,7 +11,7 @@ const Pricing = () => {
       <div className="flex items-center justify-center min-h-screen flex-col sm:flex-row 
         gap-10 xl:-mt-14 -mb-10 lg:mb-10 xl:-mb-24 xl:justify-center xl:items-center xl:flex 2xl:-mb-36">
         {[{
-        price: "R$329,97", period: "p/ Semana", text: "Aproveite uma semana de vantagens exclusivas",
+        price: "R$329,97", period: "p/ Sem.", text: "Aproveite uma semana de vantagens exclusivas",
         benefits: ["Acesso a conteúdos premium", "Treinamento e aprendizado imersivo", "Atualizações e modelos recentes",
         "Testes para negócios e eventos", "Simulação de viagens e aventuras"]
         }, {
