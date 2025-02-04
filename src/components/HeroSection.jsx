@@ -17,7 +17,7 @@ const HeroSection = () => {
             </div>
             <div className="flex justify-center items-center flex-col lg:flex-row lg:space-x-4 2xl:mb-20">
             {[video1, video2].map((video, index) => (
-            <video key={index} autoPlay loop muted className="rounded-lg lg:w-2/4 xl:w-2/5 border border-violet-600 mx-2 my-4">
+            <video key={index} autoPlay loop muted playsInline className="rounded-lg lg:w-2/4 xl:w-2/5 border border-violet-600 mx-2 my-4">
             <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
             </video>
