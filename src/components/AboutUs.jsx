@@ -5,7 +5,7 @@ import { checklistItems } from "../constants";
 const AboutUs = () => {
     return (
         <div id="sobre-nos" className="mt-20 xl:mb-20 my-8 border-b border-zinc-700/50">
-            <div className="flex flex-col lg:flex-row items-center justify-center px-6 min-h-screen xl:-mt-32 -mt-32 xl:gap-2 2xl:-mt-44 2xl:-mb-10 ">
+            <div className="flex flex-col lg:flex-row items-center justify-center px-6 min-h-screen xl:-mt-32 -mt-12 mb-12 xl:gap-2 2xl:-mt-44 2xl:-mb-10 ">
                 <div className="lg:w-1/2 flex justify-center">
                     <div className=" max-w-lg xl:mt-16">
                         <h2 className="text-center xl:text-center text-4xl font-semibold lg:text-5xl 2xl:mt-2
