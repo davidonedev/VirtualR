@@ -3,6 +3,7 @@ import { useState } from "react";
 import logo from "../assets/oculosvr.png";
 import { navItems } from "../constants";
 
+
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
 
@@ -14,7 +15,7 @@ const Navbar = () => {
       <div className="container px-4 mx-auto relative text:sm"> {/* flex justify-between items-center lg:px-8 xl:px-16 max-w-screen-xl */}
         <div className="flex justify-between items-center 2xl:ml-32 2xl:mr-20 cursor-pointer ">
           <div className="flex items-center flex-shrink-0">
-            <img className="h-13 w-16 mr-2 " src={logo} alt="logo" />
+            <img className="h-13 w-16 mr-2 " src={logo} alt="logo" onClick={() => navigate("/")}/>
             <div className="flex flex-col">
               <span className="text-2xl tracking-wide">VirtualR</span>
               <span className="text-base tracking-wide font-light -mt-2">
@@ -22,10 +23,10 @@ const Navbar = () => {
               </span>
             </div>
           </div>
-          <ul className="hidden lg:flex space-x-12 xl:ml-28  ">
+          <ul className="hidden lg:flex space-x-12 whitespace-nowrap xl:ml-28">
             {navItems.map((item, index) => (
               <li key={index}>
-                <a href={item.href} className="text-gray-200 duration-200 hover:text-violet-700 -mx-3 text-base">
+                <a href={item.href} className="text-gray-200 duration-200 hover:text-violet-700 -mx-3 text-sm">
                   {item.label}</a>
               </li>
             ))}

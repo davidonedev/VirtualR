@@ -4,22 +4,22 @@ import { checklistItems } from "../constants";
 
 const AboutUs = () => {
     return (
-        <div id="beneficios" className="mt-20 xl:mb-20 my-8 border-b border-zinc-700/50">
-            <h2 className=" text-4xl font-semibold m:text-5xl lg:text-5xl text-center 2xl:mt-20
-            mt-2 tracking-wide xl:text-center "> Sobre nós
-            </h2>
-            <div className="flex flex-col lg:flex-col items-center justify-center px-6 ">
-                <div className=" lg:w-1/2 xl:w-full flex justify-center xl:ml-">
-                    <img src={codeImg} className="w-[430px] xl:w-3/5 mt-14 rounded-2xl shadow-2xl xl: xl:mb-10" alt="VirtualR" />
-                </div>
-                <div className="xl:w-3/5 flex justify-center ">
-                    <div className=" p-6 ">
-                        <p className="text-justify xl:mb-20">
+        <div id="sobre-nos" className="mt-20 xl:mb-20 my-8 border-b border-zinc-700/50">
+            <div className="flex flex-col lg:flex-row items-center justify-center px-6 min-h-screen xl:-mt-32 -mt-32 xl:gap-2 2xl:-mt-44 2xl:-mb-10 ">
+                <div className="lg:w-1/2 flex justify-center">
+                    <div className=" max-w-lg xl:mt-16">
+                        <h2 className="text-center xl:text-center text-4xl font-semibold lg:text-5xl 2xl:mt-2
+                        tracking-wide "> Sobre nós
+                        </h2>
+                        <p className="text-center xl:text-justify whitespace-normal text-lg/7 pt-12 pb-12">
                         Somos especialistas em levar a realidade virtual para o seu evento! Oferecemos aluguel de óculos VR para empresas, 
                         festas e eventos, proporcionando experiências imersivas e inovadoras. Seja para entretenimento, treinamentos ou ativações 
                         interativas, garantimos tecnologia de ponta e suporte completo para tornar sua ocasião inesquecível.
                         </p>
                     </div>
+                </div>
+                <div className="lg:w-1/2 flex justify-center lg:justify-end xl:w-2/3">
+                    <img src={codeImg} className="w-[430px] -mb-10 xl:w-3/4 2xl:w-5/6 rounded-lg shadow-2xl" alt="VirtualR" />
                 </div>
             </div>
             {/* <div className="pt-12 w-full lg:w-1/2 -ml-8 mt-10">
