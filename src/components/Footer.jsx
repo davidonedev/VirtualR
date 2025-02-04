@@ -55,7 +55,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="mt-10 xl:mt-12 -mb-5 text-center text-sm italic text-slate-400/75">
-                <p>© 2024 Code by David. All rights reserved</p>
+                <p className=''>© 2024 Code by <a href="https://github.com/davidonedev" target="_blank" rel="noopener noreferrer" class="text-inherit hover:text-purple-600 hover:underline transition-colors duration-300">David Alves</a>. All rights reserved</p>
             </div>
         </footer>
     );
