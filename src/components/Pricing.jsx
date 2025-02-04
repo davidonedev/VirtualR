@@ -15,7 +15,7 @@ const Pricing = () => {
         benefits: ["Acesso a conteúdos premium", "Treinamento e aprendizado imersivo", "Atualizações e modelos recentes",
         "Testes para negócios e eventos", "Simulação de viagens e aventuras"]
         }, {
-        price: "R$119,00", period: "p/ dia", text: "Experimente um dia de tecnologia avançada",
+        price: "R$119,00", period: "p/ Dia", text: "Experimente um dia de tecnologia avançada",
         benefits: ["Flexibilidade de uso", "Experiência imersiva", "Custo-benefício excelente", "Entretenimento inovador",
         "Perfeito para eventos e festas"]
         }].map((plan, index) => (
